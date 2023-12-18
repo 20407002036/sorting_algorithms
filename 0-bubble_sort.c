@@ -15,14 +15,15 @@ void swap(int *a, int *b)
 
 /**
  * bubble_sort - prints the process of the sort
- * array: Pointer to array
- * size: size of the array
+ * @array: Pointer to array
+ * @size: size of the array
  *
  * Return: void
  */
 
-void bubble_sort(int *array, size_t size){
- size_t i, j;
+void bubble_sort(int *array, size_t size)
+{
+size_t i, j;
 	int swapped;
 
 	if (array == NULL || size < 2)
